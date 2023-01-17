@@ -1,5 +1,5 @@
 # Leetcode
-Insist on punching in a LeetCode question every day
+Insist on punching in a LeetCode && AcWing question every day
 <div>
 <img align='left' src="https://github.com/fengwei2002/fengwei2002/blob/main/calendar.svg">
 
