@@ -1,0 +1,30 @@
+Given a length n
+  Integer sequence of , please count the number of reverse pairs in the sequence.
+
+The inverse pair is defined as follows: For the i-th
+  and the jth
+  elements, if i<j
+  And a[i]>a[j]
+, then it is a reverse pair; otherwise it is not.
+
+input format
+The first line contains the integer n
+, indicating the length of the array.
+
+The second line contains n
+  An integer representing the entire array.
+
+output format
+Output an integer representing the number of reversed pairs.
+
+data range
+1≤n≤100000
+,
+The value range of the elements in the array [1,109]
+.
+
+Input sample:
+6
+2 3 4 5 6 1
+Sample output:
+5
