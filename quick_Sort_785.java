@@ -1,3 +1,31 @@
+/*Given you a length n array of integers.
+
+Please use quick sort to sort this list from smallest to largest.
+
+And output the sorted array in order.
+
+input format
+Input a total of two lines, the first line contains the integer n
+.
+
+The second line contains n
+  integers (all integers between 1∼109
+  range), representing the entire array.
+
+output format
+Output a total of one line, containing n
+  An integer representing a sorted array.
+
+data range
+1≤n≤100000
+
+Input sample:
+5
+3 1 2 4 5
+Sample output:
+1 2 3 4 5
+*/
+
 import java.util.*;
 public class quick_Sort {
     public static void main(String[] args){
