@@ -1,3 +1,12 @@
+/*Problem-solving ideas:
+1. Find the midpoint of the interval mid
+2. Sort [l, mid] and [mid+1, r]
+3. Merge [l, mid] and [mid+1, r]
+
+Time complexity analysis:
+The time complexity of merge sort is O(nlogn2)
+
+*/
 import java.io.*;
 
 public class merge_Sort_787{
