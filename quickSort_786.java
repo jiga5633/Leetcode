@@ -1,3 +1,29 @@
+/*
+Given a length n sequence of integers, and an integer k
+, please use the quick selection algorithm to find the k-th sequence after sorting from small to large number.
+
+input format
+The first line contains two integers nand k.
+
+The second line contains n integers (all integers between 1∼109 range), representing a sequence of integers.
+
+output format 
+Output an integer representing the kth of the sequencedecimal.
+
+data range 
+1≤n≤100000,1≤k≤n
+
+
+Input sample:
+5 3
+2 4 1 5 3
+Sample output:
+3
+*/
+
+
+
+
 import java.util.Scanner;
 public class quickSort_786{
     public static void main(String[] args){
