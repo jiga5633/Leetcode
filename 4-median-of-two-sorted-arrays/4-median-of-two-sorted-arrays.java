@@ -45,3 +45,28 @@ class Solution {
         return median;
     }
 }
+
+/*class Solution {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        double b;
+        
+    int left  = nums1.length;
+    int right = nums2.length;
+    int[] res = new int[left+ right];
+    for(int i=0; i< left; i++){
+        res[i] = nums1[i];
+    }
+    for(int i=left, j=0; i< res.length;i++, j++){
+        res[i] = nums2[j];
+    }
+    Arrays.sort(res);
+    int mid = res.length / 2 ;
+    if(res.length % 2 ==0){
+
+       b = (res[mid-1] + res[mid])/2.0;
+
+    }else b  =(double) res[mid];
+   return b;
+}
+}
+*/
