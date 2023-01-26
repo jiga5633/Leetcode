@@ -1,0 +1,14 @@
+class Solution {
+    public int longestPalindrome(String s) {
+        int[] array = new int[1 + 'z'];
+        for (char c : s.toCharArray()) array[c]++;
+
+        int a = 0, b = 0;
+        for (int i = 'A'; i <= 'z'; i++) {
+            a += (array[i] / 2) * 2;
+            if (b == 0 && array[i] % 2 != 0) b++;
+        }
+
+        return a + b;
+    }
+}
