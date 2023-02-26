@@ -1,0 +1,17 @@
+class Solution {
+    int ans;
+    public int diameterOfBinaryTree(TreeNode root) {
+        if (root == null) return 0;
+        dfs(root);
+        return ans;
+    }
+
+    public int dfs(TreeNode root) {
+        if (root == null) return 0;
+        int l = dfs(root.left);
+        int r = dfs(root.right);
+        if (ans < l + r) ans = l + r;  //每次递归都求出当前结点的直径与当前最大值作比较
+        return Math.max(l, r) + 1;
+    }
+}
+
